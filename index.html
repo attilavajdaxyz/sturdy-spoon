@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Attila's webpage</title>
+  <title>sturdy-spoon blog</title>
   <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <header></header>
+  <header>
+    <nav class="nav-bar">
+      <ul class="no-bullets">
+        <li><img class="site-logo-img" src="images/felho-foto.jpeg" alt="a photo of a cloud with a backdrop of blue sky, this is the the current logo of the website"/></li>
+        <li>blog written by Attila Vajda</li>
+      </ul>
+    </nav>
+  </header>
   <main>
-  <h1>Hi, I am Attila</h1>
-  <p>I have been doing yoga for many years, I draw and paint, photograph and like studying and doing art. I am learning martial arts, I do brazilian jiu jitsu and judo and karate and qi gong. I like to read, to play musical instruments and to climb and to listen to mountaineering podcasts 🏔.</p>
-  <button>This is a button</button>
+    <h1>sturdy-spoon blog</h1>
+
+    <!-- 2022 aprilis 6 daily blog page -->
+    <h2 class="daily-post-title">avril 6 Mercredi 2022 blogpost</h2>
+    <p>I am thinking of using inline styles. To create a grid, so that the blogpost is contained in the HTML document. I guess using the class option makes more sense.</p>    
+
+    <!-- this is daily blogbejegyzes 2022 aprilis 5 -->
+    <h2 class="daily-post-title">avril 5 Mardi 2022 start of a blog</h2>
+    <p>This is my blog that I write about my code learning and creative recovery. I have been doing yoga for many years, and learnt some Qi Gong which serves me well, I draw and paint, photograph and like studying and doing art. I am learning martial arts like brazilian jiu jitsu and judo and karate. I also like climbing and to listen to mountaineering podcasts 🏔. I was also diagnosed with paranoid schizophrenia - a dopaminergic condition - I am recovering from it and I might write about my experience.</p>
+
+    <p>The thoughtprocess behind this blog is that I have been learning to code for a year and a half and I felt the need to document the process in the code medium. It would have been great, so I will do it now. I am hoping to improve in writing and thinking by blogging. I did the Artist's Way method and developed the habit of writing three pages everyday as a journal and I would like to create something similar in the blog form for code and design. It would be an opportunity to post links and articles that I find helpful in learning. Learning to code is fun. I am thinking to do an apprenticeship or junior position where I am mentored. I am mainly learning HTML, CSS, JavaScript, React and the basics of design. Along these I am learning Unix, VS Code, Ruby, regular expressions, accessibility, Figma and many other things that I cannot remember at the moment. I will try to keep this page simple and accessible. I will add a transition animation for links which I borrowed from <a href="https://devdocs.io/">DevDocs</a>. Coding is cool :)</p>
+
+    <p>This is a cool website for learning accessibility: <a href="https://a11yphant.com/">A11yphant - I found it in a weekly newsletter.</a></p>
+
+    <p>This morning I was doing a "code pomodoro", I set the clock for 25-30 minutes and I spend this time trying to solve an algorithm. At the moment I am solving challenges at Codewars. I solved the JavaScript algorithms at <a href="https://www.freecodecamp.org/"">freeCodeCamp</a> two times, which was a great experience, and it was cool to see the different versions of solutions and to learn from those. It is great that by regularly spending time with learning to code and solving algorithms I got somewhat familiar with with using a programming language. For me coding is a career change and it is quite beneficial for my mental health. When I started learning I didn't understand the simplest things. So while trying to solve this algorithm I figured out something simple and had the idea to put it into writing.</p>
+    
+    <p><a href="https://www.codewars.com/kata/58f5c63f1e26ecda7e000029">This is the challenge that I was trying to solve - Mexican Wave</a> where the input <code>‘Hello,hEllo,heLlo,helLo,hellO’</code> should return <code>[‘Hello’, ‘hEllo’, ‘heLlo’, ‘helLo’, ‘hellO’]</code>, and instead it returns the output: <code>[‘Hello’, ‘hEllo’, ‘heLlo’, ‘heLlo’, ‘hellO’]</code> and I had to look at this result for a while, and to experiment to find what the problem was.</p>
+
+    <pre>
+      <code>
+        function wave(str){
+          // Code here
+          let result = []
+          for (let character of str) { 
+            result.push(
+              str.replace(character, character.toUpperCase())
+            ) 
+          }
+          console.log(result)
+          return result
+        }
+      </code>
+    </pre>
+
+    <p>I am practicing debugging and writing, creating a technical blog entry, as a sort of baby step. I came accross this problem where at first sight of looking at the result I couldn’t spot what the problem was.  ‘heLlo’, ‘heLlo’ should be ‘heLlo’, ‘helLo’ and my solution is to use ,<code>for (key in string)</code> instead of <code>for (character of string)</code>  - this seems good practice for writing and thinking. Also, I am practicing thinking in terms of code and understanding how I think in JavaScript. This is a great article and collection of JavaScript shorthand techniques, this is where I found the key in and character of shorthands <a href="https://javascript.plainenglish.io/30-awesome-javascript-shorthand-techniques-that-are-good-to-know-6590545ced3d">30 Awesome JavaScript Shorthand Techniques That You Should Know</a>. I did a « code pomodoro » just now and this is what came up. I do a pomodoro, 25-30 minutes of trying to solve an algorithm on Codewars. I focus on process. It helps to write stuff on a sheet of paper, I find that it contributes to the solution. The idea of these writings is to learn to think and write in plain English. The pomodoro is focused thinking and then I try to allow for diffused mode thinking. I could fill a digital page with writing and thinking in a similar style. But now we will walk with the dog, or run if my knee allows it.</p>
+
+
+    <button>This is a button</button>
   </main>
   <footer>this is a footer</footer>
 </body>
