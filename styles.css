@@ -93,3 +93,12 @@ ul.no-bullets {
 .site-logo-img {
   width: 50px;
 }
+
+.inline-img {
+  width: 200px;
+  float:inherit;
+}
+
+img {
+  max-width: 100%;
+}
