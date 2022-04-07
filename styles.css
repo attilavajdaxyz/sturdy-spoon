@@ -96,7 +96,7 @@ ul.no-bullets {
 
 .inline-img {
   width: 200px;
-  float:inherit;
+  float:inline-end;
 }
 
 img {
