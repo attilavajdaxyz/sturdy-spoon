@@ -102,3 +102,38 @@ ul.no-bullets {
 img {
   max-width: 100%;
 }
+
+.this-is-a-grid-container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.d1 {background-color:ivory;}
+.d2 {background-color:khaki;}
+.d3 {background-color:lavender;}
+.d4 {background-color:lavenderblush;}
+.d5 {background-color:lawngreen;}
+.d6 {background-color:lemonchiffon;}
+.d7 {background-color:lightcoral;}
+.d8 {background-color:lightcyan;}
+
+.this-is-another-grid-container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  border:5px solid tomato;
+}
+
+.a1 {background-color:ivory;}
+.a2 {background-color:khaki;}
+.a3 {background-color:lavender;}
+.a4 {background-color:lavenderblush;}
+.a5 {background-color:lawngreen;}
+.a6 {background-color:lemonchiffon;}
+.a7 {background-color:lightcoral;}
+.a8 {background-color:lightcyan;}
