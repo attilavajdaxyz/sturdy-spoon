@@ -9,6 +9,8 @@
 
   font-family: Helvetica, Arial, sans-serif;
   font-size: var(--font-size-s);
+  background-color:indigo;
+  color:aquamarine;
 }
 
 h1 {
@@ -137,3 +139,24 @@ img {
 .a6 {background-color:lemonchiffon;}
 .a7 {background-color:lightcoral;}
 .a8 {background-color:lightcyan;}
+
+.this-is-a-grid-for-april {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.this-is-a-grid-for-april:first-child:hover {
+  background-color:blue;
+}
+
+.b1 {background-color:darkgrey;}
+.b2 {background-color:darkolivegreen;}
+.b3 {background-color:chartreuse;}
+.b4 {background-color:darkorange;}
+.b5 {background-color:darkorchid;}
+.b6 {background-color:deeppink;}
+.b7 {background-color:lavenderblush;}
+.b8 {background-color:yellow;}
