@@ -9,8 +9,8 @@
 
   font-family: Helvetica, Arial, sans-serif;
   font-size: var(--font-size-s);
-  background-color:indigo;
-  color:aquamarine;
+  /* background-color:indigo;
+  color:aquamarine; */
 }
 
 h1 {
@@ -146,10 +146,6 @@ img {
   grid-template-rows: 50px 50px 50px;
   grid-row-gap: 20px;
   grid-column-gap: 20px;
-}
-
-.this-is-a-grid-for-april:first-child:hover {
-  background-color:blue;
 }
 
 .b1 {background-color:darkgrey;}
