@@ -156,3 +156,16 @@ img {
 .b6 {background-color:deeppink;}
 .b7 {background-color:lavenderblush;}
 .b8 {background-color:yellow;}
+
+
+.flex-container-april{
+  display: flex;
+  flex-direction:column;
+}
+
+.c1{ background-color:brown }
+.c2{ background-color:crimson }
+.c3{ background-color:darkred }
+.c4{ background-color:coral }
+.c5{ background-color:darkorange }
+.c6{ background-color:firebrick }
