@@ -163,9 +163,61 @@ img {
   flex-direction:column;
 }
 
-.c1{ background-color:brown }
-.c2{ background-color:crimson }
-.c3{ background-color:darkred }
-.c4{ background-color:coral }
-.c5{ background-color:darkorange }
-.c6{ background-color:firebrick }
+.e1{background:LightSkyBlue;}
+.e2{background:LightSalmon;}
+.e3{background:PaleTurquoise;}
+.e4{background:LightPink;}
+.e5{background:PaleGreen;}
+
+.container {
+  font-size: 40px;
+  width: 100%;
+  background: LightGray;
+  /* Only change code below this line */
+  display: grid;
+  
+  /* Only change code above this line */
+  margin: 20px 0px 20px 0px;
+}
+
+.f1{background:LightSkyBlue;}
+.f2{background:LightSalmon;}
+.f3{background:PaleTurquoise;}
+.f4{background:LightPink;}
+.f5{background:PaleGreen;}
+
+.second-container {
+  font-size: 40px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  /* Only change code below this line */
+  grid-template-columns: 1fr 100px 2fr;
+  grid-template-rows: 50px 50px;
+  /* Only change code above this line */
+  margin: 20px 0px 20px 0px;
+}
+
+.g1{background:LightSkyBlue;}
+.g2{background:LightSalmon;}
+.g3{background:PaleTurquoise;}
+.g4{background:LightPink;}
+.g5{
+  background:PaleGreen;
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+}
+
+.third-container {
+  font-size: 40px;
+  min-height: 300px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-column-gap: 20px;
+  grid-row-gap: 5px; */
+  grid-gap: 10px 20px;
+}
+
