@@ -221,3 +221,12 @@ img {
   grid-gap: 10px 20px;
 }
 
+.flexbox-of-paintings {
+  display: flex;
+  max-width: 100%;
+  flex-direction:row;
+}
+.flexbox-of-paintings img {
+  max-width: 40%;
+  margin: auto;
+}
