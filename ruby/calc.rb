@@ -35,3 +35,10 @@ puts seconds_old_I_am
 your_age_in_seconds = 1406_000_000 * seconds_in_a_year
 
 puts your_age_in_seconds
+
+composer = "Mozart"
+puts composer + ' was "da bomb" in his day.'
+
+composer = "Beethoven"
+puts "But I prefer " + composer + " ."
+
