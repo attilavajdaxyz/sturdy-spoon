@@ -36,3 +36,16 @@ function arrayToList(arr) {
 
 
 // after memorisation I do have insight into the code
+
+function listToArray(list) {
+  let result = []
+  let current = list
+  while (current.rest) {
+    result.push(current.value)
+    current = current.rest
+  }
+  return result
+}
+
+
+

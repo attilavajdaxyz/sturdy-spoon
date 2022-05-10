@@ -11,14 +11,14 @@ body {
 .text-and-image {
     display: flex;
     flex-direction: column;
-    border: 5px solid #FC2BF2;
+    /* border: 5px solid #FC2BF2; */
     width: 300px;
     flex-wrap: wrap;
-    height: 2000px;
+    height: 2100px;
 }
 
 .container-for-flexbox {
-    border: 3px solid #FE221E;
+    /* border: 3px solid #FE221E; */
 }
 
 .sayounara-image {
@@ -27,4 +27,8 @@ body {
 
 img {
     max-width: 100%;
+}
+
+h3{
+    font-size: 40px;
 }
