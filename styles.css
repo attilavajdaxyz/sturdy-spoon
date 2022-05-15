@@ -277,3 +277,26 @@ blockquote p::after {
   content: '\201D';
 }
 
+.sunday-h2 {
+  font-size: 50px;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+  font-style: normal;
+  width: 300px;
+} 
+
+.sunday-img {
+ width: 300px;
+}
+
+.rectangle {
+ border: 15px solid yellow;
+}
+
+.kanji {
+ border: 15px solid darkorange;
+}
+
+.jug {
+ border: 15px solid aqua;
+}
