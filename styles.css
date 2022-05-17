@@ -295,6 +295,7 @@ blockquote p::after {
 
 .kanji {
  border: 15px solid darkorange;
+ width: 300px;
 }
 
 .jug {
