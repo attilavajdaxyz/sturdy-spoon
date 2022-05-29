@@ -301,3 +301,40 @@ blockquote p::after {
 .jug {
  border: 15px solid aqua;
 }
+
+.tuesday-grid {
+  font-size: 20px;
+  min-height: 300px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-column-gap: 20px;
+  grid-row-gap: 5px; */
+  grid-gap: 10px 20px;
+}
+
+.tuesday-grid img {
+  width: 100%;
+}
+
+.item1{background:LightSkyBlue;}
+.item2{background:LightSalmon;}
+.item3{background:PaleTurquoise;}
+.item4{background:LightPink;}
+.item5{background:PaleGreen;}
+.item6{background:lemonchiffon;}
+.item7{background:lightblue;}
+
+
+.container {
+  font-size: 40px;
+  min-height: 300px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
