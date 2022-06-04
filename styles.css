@@ -128,6 +128,8 @@ img {
 .d6 {background-color:lemonchiffon;}
 .d7 {background-color:lightcoral;}
 .d8 {background-color:lightcyan;}
+.d9 {background-color:;}
+
 
 .this-is-another-grid-container {
   display: grid;
@@ -337,4 +339,19 @@ blockquote p::after {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px;
+  grid-gap: 1rem;
+}
+
+.item{
+  background-color: blueviolet;
+}
+
+.mercredi-image {
+  max-width: 400px;
 }
