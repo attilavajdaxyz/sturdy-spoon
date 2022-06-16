@@ -6,11 +6,13 @@ public class ToSquareRoot
   {
     ArrayList<Integer> result = new ArrayList<Integer>();
     for (int i : array) {
-      if ((i / i) % 1 == 0) {
+      if ((Math.sqrt(i)) % 1 == 0) {
         result.add(i);
       }
     }
   }
 
-  public static void main(String[] args) {}
+  public static void main(String[] args) {
+    squareOrSquareRoot({1, 2, 3});
+  }
 }

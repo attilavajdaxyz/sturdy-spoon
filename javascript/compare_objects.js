@@ -1,21 +1,24 @@
 // Your code here.
 ​
 let obj = {here: {is: "an"}, object: 2};
-​
+
+// Saving conditions in variables as flags.
+let objectLengthsAreSameFlag = Object.keys(a).length === Object.keys(b).length
+​let objectAndNotNullFlag = typeof a[key] === 'object' && b[key] === 'object' && a[key] !== null && b[key] !== null
+let objectAndNotObjectFlag = typeof a[key] === 'object' && typeof b[key] !== 'object'
+let notObjectEqualFlag = typeof a[key] !== 'object' && typeof b[key] !== 'object' && a[key] === b[key]
+let notObjectNotEqualFlag = typeof a[key] !== 'object' && typeof b[key] !== 'object' && a[key] !== b[key]
+
 function deepEqual(a, b) {
-  if (Object.keys(a).length === Object.keys(b).length) {
+  if (objectLengthsAreSameFlag) {
     for (let key in a) {
-      console.log('key is', key, '--- a[key] is ', a[key], '--- b[key] is', b[key])
-      if (typeof a[key] === 'object' && b[key] === 'object' && a[key] !== null && b[key] !== null) {
-        console.log('Inside first if statement', typeof a[key], typeof b[key])
+      if (objectAndNotNullFlag) {
         deepEqual(a[key], b[key])
-      } else if (typeof a[key] === 'object' && typeof b[key] !== 'object') {
+      } else if (objectAndNotObjectFlag) {
         return false
-      } else if (typeof a[key] !== 'object' && typeof b[key] !== 'object' && a[key] === b[key]) {
-        console.log('Inside second if statement', typeof a[key], typeof b[key])
+      } else if (notObjectEqualFlag) {
        	return true 
-      } else if (typeof a[key] !== 'object' && typeof b[key] !== 'object' && a[key] !== b[key]) {
-        console.log('Inside last if statement', typeof a[key], typeof b[key])
+      } else if (notObjectNotEqualFlag) {
         return false 
       }
     }
