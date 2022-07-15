@@ -17,6 +17,6 @@ public class SquareRoot {
         return currentEstimate;
     }
     public static void main (String[] args) {
-        System.out.println(squareRoot(9));
+        System.out.println(squareRoot(36));
     }
 }

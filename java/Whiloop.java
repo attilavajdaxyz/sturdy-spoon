@@ -19,7 +19,7 @@ public class Whiloop {
         }
         System.out.println(n);
     }
-    public static void main (String[] args) {
+    public static voi   d main (String[] args) {
         System.out.println("Hello while loop!");
         whiloop();
         sincrease(3);

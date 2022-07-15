@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 public class Quadratic {
-    public static double quadratic(double a, double b, double c, double x) {
-        return 0.0;
+    public static double quadratic(double a, double b, double c) {
+        double x = -b;
+        return x;
     }
     public static void main (String[] args){
         double x;
